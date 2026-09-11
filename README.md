@@ -32,7 +32,7 @@ pip install pygame
 Then run the game:
 
 ```
-python snake_game.py
+python memory-snake.py
 ```
 
 ## Example
