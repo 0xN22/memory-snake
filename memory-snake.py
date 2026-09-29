@@ -1,6 +1,7 @@
 import pygame
 import time
 import random
+import os
 
 
 # -------------------------------------------------------------------------------------------- #
@@ -17,7 +18,8 @@ window_y = 480
 screen = pygame.display.set_mode((window_x, window_y))
 
 # Font
-font = pygame.font.SysFont('Comic Sans MS', 30)
+FONT_PATH = os.path.join(os.path.dirname(__file__), "Montserrat-Regular.ttf")
+font = pygame.font.Font(FONT_PATH, 30)
 
 # Define colors
 black = pygame.Color(0, 0, 0)
